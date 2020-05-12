@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WhaTap Signup Page - Youngsam</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/font.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      :root {
+        --main-color: #424242;
+        --bg-color: #fff;
+      }
+      .contents > section.full-max .img-wrap .img-in {
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body class="pages">
+    <div class="container">
+      <header id="header">
+        <nav>
+          <a href="/" class="logo hover-target">
+            <h1>
+              <span>Youngsam</span>
+            </h1>
+          </a>
+          <ul>
+            <li><a class="hover-target" href="/">WORK</a></li>
+            <li><a class="hover-target" href="/contact">CONTACT</a></li>
+            <li><a class="hover-target" href="/about">ABOUT</a></li>
+          </ul>
+          <button class="burger" name="Toggle navigation">
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <line x1="1" y1="2" x2="24" y2="2" />
+              <line x1="1" y1="9" x2="24" y2="9" />
+              <line x1="10" y1="16" x2="24" y2="16" />
+            </svg>
+          </button>
+        </nav>
+        <div class="progress-container" id="pgWrap">
+          <div class="progress-bar" id="pgBar"></div>
+        </div>
+      </header>
+      <div class="mobile_nav">
+        <div>
+          <ul class="primary">
+            <li><a href="/">WORK</a></li>
+            <li><a href="/contact/">CONTACT</a></li>
+          </ul>
+          <p class="eyebrow">Social media</p>
+          <ul class="secondary">
+            <li>
+              <a href="https://www.facebook.com/youngsam.kong.3" target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/youngsam-kong-166623165/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="slider" data-type="background">
+        <div
+          class="slider-bg"
+          id="sliderBg"
+          data-url="url(/img/whatap_signup_main.png)"
+        ></div>
+        <div class="title-sec">
+          <div class="title">
+            <div class="title-head">
+              <span class="category-eyebrow">UX/UI, Front-End</span>
+              <h5 class="title-content-headline">WhaTap Signup Page</h5>
+            </div>
+            <time class="title-date">2019년 10월 8일</time>
+          </div>
+        </div>
+      </div>
+      <div class="contents" id="contents">
+        <section class="summary">
+          <ul>
+            <li>
+              <span class="sp-title">Role</span>
+              <span class="sp-text"
+                >Product Designer & Front-End Developer</span
+              >
+            </li>
+            <li>
+              <span class="sp-title">Design Tools</span>
+              <span class="sp-text">Sketch</span>
+            </li>
+            <li>
+              <span class="sp-title">Duration</span
+              ><span class="sp-text">2019.09 - 2019.10</span>
+            </li>
+          </ul>
+        </section>
+        <section class="intro">
+          <div class="sub-title">
+            <h5>Overview</h5>
+          </div>
+          <div class="content-in">
+            <p class="text">
+              와탭의 기존의 회원가입 절차가 복잡하고 UI를 개선하기 위해 작업을
+              시작하였습니다.
+            </p>
+          </div>
+        </section>
+        <section class="content">
+          <div class="sub-title">
+            <h5>
+              <strong>AS-IS.</strong>
+              <span class="des">문제점 찾기.</span>
+            </h5>
+          </div>
+          <div class="content-in">
+            <ul class="text">
+              <li class="text-li">
+                <h6>1. 필요하지 않은 정보들로 인해 절차가 복잡하다.</h6>
+                <p>
+                  언어와 사업대상국, 프로모션 코드까지 물어보고 있어서
+                  사용자에게 과도하게 질문을 하고 있습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>2. 순서를 최적화하지 못했다.</h6>
+                <p>
+                  질문을 할 때는 "가장 쉬운" 것에서 "가장 어려운" 것으로 진행할
+                  때 이해가 빨라지고, "기본적인" 요구사항부터 "비즈니스적인"
+                  요구사항으로 물어보는 것이 적절합니다. 그런데, 회사명부터
+                  물어보고 있다는 것은 "비즈니스적인" 것부터 물어보고 있어서
+                  사용자의 흐름에 방해가 될 수 있습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>3. 레이블이 왼쪽으로 되어있다.</h6>
+                <p>
+                  레이블이 왼쪽에 있어 사용자의 시각적 흐름이 Z형이 되어 시야의
+                  전환이 이루어지기 때문에, 복잡함과 피로감을 주고 있습니다.
+                  그리고 반응형 웹 디자인을 할 때에도 레이아웃이 틀어질 수 있어
+                  문제가 될 수 있습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>4. 입력필드가 Line으로 되어있다.</h6>
+                <p>
+                  기본적으로 많이들 사용하고 있는 Line 형태의 입력 필드이지만,
+                  박스 형태의 입력 필드가 사용성이 좋습니다. 그래서 구글에서도
+                  입력필드를 다시 박스형태로 바꾸어 적용한 UI 디자인 사례가
+                  있습니다.
+                </p>
+              </li>
+            </ul>
+            <div class="img-wrap">
+              <video class="video-in" autoplay loop muted playsinline>
+                <source
+                  src="./img/whatap_signup_page_1.mp4?001"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="sub-title">
+            <h5>
+              <strong>TO-BE.</strong>
+              <span class="des">문제점 해결.</span>
+            </h5>
+          </div>
+          <div class="content-in">
+            <ul class="text">
+              <li class="text-li">
+                <h6>1. 필요한 내용으로만 단순화하였습니다.</h6>
+                <p>
+                  정보를 줄이는 것은 회사의 마케팅과 관련되어 있는 부분이라
+                  대표님과 관련 구성원분들과 충분한 상의를 나누었습니다.
+                  '언어'의 경우는 기본적인 국가 IP를 받아서 프로덕트와 연결할 수
+                  있도록 하였고, 얼마든지 프로덕트 안에서 계정 설정으로 변경할
+                  수 있도록 하였습니다. '사업대상국'의 경우는 일본에서 와탭을
+                  연결해주는 파트너 업체를 위한 질문이어서, 그 업체를 통한
+                  경우는 특수 프로모션 코드를 이용하여 알 수 있도록 구분지어
+                  불필요하게 되었습니다. 그리고 '프로모션 코드'는 소지한
+                  사람에게만 보여질 수 있도록 기본적으로 가리게 하여 소지하지
+                  않은 사람들에게 혼동을 주지 않게 하였습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>2. 순서를 최적화.</h6>
+                <p>
+                  기본적인 질문과 쉬운 질문부터 단계적으로 질문하여 사용자가
+                  비교적 회원가입을 하기에 부담이 적게 하였습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>3. Placeholder와 레이블을 일치.</h6>
+                <p>
+                  이 과정은 구글의 입력필드를 참고하여 작업하였습니다.
+                  회원가입을 고려할 때는 모바일을 우선적으로 체크하여, 모바일
+                  화면에 입력필드가 최대한 많이 보일 수 있는 디자인을 찾고
+                  있었습니다. 많은 레퍼런스를 참고하였지만, 구글의 입력필드가
+                  좋은 디자인안이었습니다. 덧붙이자면, 코딩작업을 할 때 최대한
+                  JS를 안쓰고 CSS에서 해결하려 하였습니다. 이유는 퍼포먼스가 더
+                  빨라 사용자에게 버벅임을 줄일 수 있을 것 같았습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>4. 입력 필드를 Box 형태로.</h6>
+                <p>
+                  입력 필드를 박스 형태로 바꾸어 사용자에게 입력 필드라는 것을
+                  명확히 알려주었습니다.
+                </p>
+              </li>
+              <li class="text-li">
+                <h6>5. 입력란이 끝나면 유효성 피드백.</h6>
+                <p>
+                  입력란을 다 채운 후에 유효성을 확인하여 에러 상태와 그 이유를
+                  알려주어 사용자가 정확히 정보를 입력할 수 있도록
+                  유도하였습니다.
+                </p>
+              </li>
+            </ul>
+            <div class="img-wrap">
+              <video class="video-in" autoplay loop muted playsinline>
+                <source
+                  src="./img/whatap_signup_page_2.mp4?001"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="sub-title">
+            <h5>
+              Output.
+            </h5>
+          </div>
+          <div class="content-in">
+            <p class="text">
+              회원가입은 회사의 서비스 성장도의 지표이기 때문에, Google
+              Analytics 같은 웹서비스 지표를 보기 위해서는 도메인을 달리 설정할
+              필요가 있었습니다. 어느 나라에서 가입률이 어떤 상태인지 정확히
+              알기 위해서 입니다. 그래서 기존에는 도메인 하나에서 Javascript로
+              언어를 변경했었지만, 3가지를 만들 필요가 있었습니다.
+            </p>
+            <div class="img-wrap">
+              <img class="img-in" src="./img/whatap_signup_page_3.png" />
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="sub-title">
+            <h5>
+              Coding.
+            </h5>
+          </div>
+          <div class="content-in">
+            <p class="text">
+              개발 실력이 얕은 상태에서 회원가입 완료를 하면 Form의 데이터를
+              서버 쪽에 전달하고 아이디가 중복되었는지 등의 데이터를 받아와야
+              해서 백엔드 분과 어느정도 데이터를 맞추고 작업을 하였습니다.
+              그런데 작업을 하다보니 언어의 전달 순서가 달라 UX를 의논하였을 때,
+              국가전화번호 순으로 정렬하는 것으로 의논이 결정되었습니다.
+            </p>
+            <div class="img-wrap">
+              <img class="img-in" src="./img/whatap_signup_page_4.png" />
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="sub-title">
+            <h5>
+              <strong>Comment.</strong>
+              <span class="des">마무리하면서.</span>
+            </h5>
+          </div>
+          <div class="content-in">
+            <p class="text">
+              폼 디자인에 있어서 다양한 회원가입 페이지들을 보았고, 회원가입 UX
+              디자인 유용한 글들을 많이 읽게 되어 작업에 도움이 되었습니다.
+              공감가는 부분들은 적극 수용하여 회사 특성에 맞게 유연하게 변형시켜
+              작업하였습니다. 작업하면서 SNS를 이용한 간편 회원가입을 넣고
+              싶었으나, B2B 서비스여서 이메일을 입력하는 유저들이 회사 메일을
+              주로 입력하기 때문에 개인 SNS 계정과 연결하는 것이 불필요하다고
+              생각되었습니다. 또한 비밀번호를 1번만 입력하는 것과 비밀번호
+              확인을 넣는 것과 많은 의견이 있었습니다. 결국 비밀번호 확인을 넣어
+              안정성을 확보하는 것으로 결정하기로 하였습니다.
+            </p>
+            <p class="refer">
+              <span>참고</span>
+              <a href="https://brunch.co.kr/@ebprux/56" target="_blank"
+                >https://brunch.co.kr/@ebprux/56</a
+              >
+              <a href="https://brunch.co.kr/@thinkaboutlove/262" target="_blank"
+                >https://brunch.co.kr/@thinkaboutlove/262</a
+              >
+              <a href="https://brunch.co.kr/@dalgudot/74" target="_blank"
+                >https://brunch.co.kr/@dalgudot/74</a
+              >
+              <a href="https://brunch.co.kr/@dalgudot/101" target="_blank"
+                >https://brunch.co.kr/@dalgudot/101</a
+              >
+              <a
+                href="http://blog.wishket.com/%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%BD%ED%97%98%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-%EC%9E%85%EB%A0%A5%ED%8F%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%81-4%EA%B0%80%EC%A7%80"
+                target="_blank"
+                >http://blog.wishket.com/%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%BD%ED%97%98%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-%EC%9E%85%EB%A0%A5%ED%8F%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%81-4%EA%B0%80%EC%A7%80</a
+              >
+            </p>
+          </div>
+        </section>
+        <section class="full-max">
+          <div class="img-wrap">
+            <img class="img-in" src="./img/whatap_signup_page_0.png" />
+          </div>
+        </section>
+        <div class="project">
+          <div class="wrapper">
+            <div class="carousel-title">
+              <h5>
+                My other works
+              </h5>
+            </div>
+            <ul class="carousel" data-target="carousel">
+              <li class="card" data-target="card">
+                <a href="../whatap_product_v2/" class="hover-target">
+                  <div class="card-in">
+                    <figure class="title-media">
+                      <div
+                        class="img"
+                        data-url="/img/whatap_product_v2_main.png"
+                      ></div>
+                    </figure>
+                    <div class="title-content-text">
+                      <div class="title-head">
+                        <span class="category-eyebrow">UX/UI</span>
+                        <h5 class="title-content-headline">
+                          WhaTap Product v2.0
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" data-target="card">
+                <a href="../whatap_mobile_app/" class="hover-target">
+                  <div class="card-in">
+                    <figure class="title-media">
+                      <div
+                        class="img"
+                        data-url="/img/whatap_mobile_app_main.png"
+                      ></div>
+                    </figure>
+                    <div class="title-content-text">
+                      <div class="title-head">
+                        <span class="category-eyebrow">UX/UI, App</span>
+                        <h5 class="title-content-headline">
+                          WhaTap Mobile App
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" data-target="card">
+                <a href="../diabates_notes/" class="hover-target">
+                  <div class="card-in">
+                    <figure class="title-media">
+                      <div
+                        class="img"
+                        data-url="/img/diabates_app_main.png"
+                      ></div>
+                    </figure>
+                    <div class="title-content-text">
+                      <div class="title-head">
+                        <span class="category-eyebrow">GUI, App</span>
+                        <h5 class="title-content-headline">
+                          Diabates Notes
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" data-target="card">
+                <a href="../seoul_touristic_icon/" class="hover-target">
+                  <div class="card-in">
+                    <figure class="title-media">
+                      <div
+                        class="img"
+                        data-url="/img/seoul_touristic_icon_main.png"
+                      ></div>
+                    </figure>
+                    <div class="title-content-text">
+                      <div class="title-head">
+                        <span class="category-eyebrow">Icon Design</span>
+                        <h5 class="title-content-headline">
+                          Seoul Tourisic Icon
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" data-target="card">
+                <a href="../neumorphic_native_apps/" class="hover-target">
+                  <div class="card-in">
+                    <figure class="title-media">
+                      <div
+                        class="img"
+                        data-url="/img/neumorphic_native_apps_main.png"
+                      ></div>
+                    </figure>
+                    <div class="title-content-text">
+                      <div class="title-head">
+                        <span class="category-eyebrow">GUI, App</span>
+                        <h5 class="title-content-headline">
+                          Neumorphic Native Apps
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="button-wrapper">
+              <button id="prev">
+                <i class="material-icons">navigate_before</i>
+              </button>
+              <button id="next">
+                <i class="material-icons">navigate_next</i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="copyright">
+            Copyright © 2020 Youngsam.
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+                <span>Designed and developed by Youngsam.</span>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor2" id="cursor2"></div>
+    <div class="cursor3" id="cursor3"></div>
+    <script src="../../js/helpers/smoothscroll.js"></script>
+    <script src="../../js/helpers/cursor.js"></script>
+    <script src="../../js/helpers/isElementViewport.js"></script>
+    <script src="../../js/components/work/parallax.js"></script>
+    <script src="../../js/components/work/carousel.js"></script>
+    <script src="../../js/components/header/workPages.js"></script>
+    <script src="../../js/components/home/index.js"></script>
+  </body>
+</html>
